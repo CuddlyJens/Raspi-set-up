@@ -1,4 +1,4 @@
-# Raspi-set-up
+# Update
 ```
 sudo apt-get update
 ```
@@ -10,9 +10,7 @@ sudo apt-get upgrade -y
 ```
 sudo reboot -h
 ```
-
----
-
+# Install Docker
 ```
 sudo apt install docker.io -y
 ```
@@ -34,8 +32,7 @@ sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -
 ```
 Docker portainer https://192.168.178.27:9443
 
----
-
+# Install Node, NPM and Python3
 ```
 sudo apt install nodejs -y
 ```
@@ -44,4 +41,11 @@ sudo apt install npm -y
 ```
 ```
 sudo apt install python3 -y
+```
+# Install and setup MySQL
+```
+sudo apt install mariadb-server -y
+```
+```
+sudo mysql_secure_installation
 ```
