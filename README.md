@@ -63,3 +63,8 @@ sudo apt install mariadb-server -y
 ```
 sudo mysql_secure_installation
 ```
+ENTER
+Y Password
+Y root Remote
+Y Remove test database
+Y reload the privilege table
