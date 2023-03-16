@@ -72,6 +72,8 @@ Y root Remote
 Y Remove test database
 
 Y reload the privilege table
+
+## After Creating the first Database
 ```
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
