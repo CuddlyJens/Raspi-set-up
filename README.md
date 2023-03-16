@@ -47,10 +47,10 @@ sudo apt install python3 -y
 sudo apt-get install git
 ```
 ```
-git config --global user.name "Dein Name"
+git config --global user.name CuddlyJens
 ```
 ```
-git config --global user.email "Deine@E-Mail.com"
+git config --global user.email jens.bartsch.97@gmail.com
 ```
 ```
 git config --global core.editor nano
