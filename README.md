@@ -42,6 +42,20 @@ sudo apt install npm -y
 ```
 sudo apt install python3 -y
 ```
+# Install GitHub
+```
+sudo apt-get install git
+```
+```
+git config --global user.name "Dein Name"
+```
+```
+git config --global user.email "Deine@E-Mail.com"
+```
+```
+git config --global core.editor nano
+```
+
 # Install and setup MySQL
 ```
 sudo apt install mariadb-server -y
