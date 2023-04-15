@@ -8,7 +8,13 @@ sudo reboot -h
 ```
 
 ```
-sudo git clone 
+sudo git clone https://github.com/CuddlyJens/Raspi-set-up.git
+```
+
+```
+sudo python3 Raspi-set-up/setup.py
+```
+
 ## After Creating the first Database
 ```
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
