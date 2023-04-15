@@ -44,7 +44,7 @@ sudo apt install python3 -y
 ```
 # Install GitHub
 ```
-sudo apt-get install git
+sudo apt-get install git-all
 ```
 ```
 git config --global user.name CuddlyJens
