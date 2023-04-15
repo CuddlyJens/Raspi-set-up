@@ -6,6 +6,9 @@ sudo apt-get update && sudo apt-get upgrade -y
 ```
 sudo reboot -h
 ```
+
+```
+sudo git clone 
 ## After Creating the first Database
 ```
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
