@@ -20,6 +20,8 @@ os.system('sudo apt install -y \
 # Install MySQL
 os.system('sudo apt install mariadb-server -y')
 os.system('sudo mysql_secure_installation')
+os.system('mysql -u root -p')
+
 
 with open('/etc/mysql/mariadb.conf.d/50-server.cnf', 'w') as file:
     data = file.readlines()
