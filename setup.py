@@ -22,16 +22,6 @@ os.system('sudo apt install mariadb-server -y')
 os.system('sudo mysql_secure_installation')
 os.system('mysql -u root -p')
 
-
-with open('/etc/mysql/mariadb.conf.d/50-server.cnf', 'w') as file:
-    data = file.readlines()
-
-print(data)
-data[26] = "bind-address            = 0.0.0.0\n"
-
-with open('/etc/mysql/mariadb.conf.d/50-server.cnf', 'w') as file:
-    file.writelines(data)
-
 os.system('sudo systemctl restart mariadb')
 os.system('netstat -ant | grep 3306')
 print('Setup Finished')
