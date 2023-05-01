@@ -32,7 +32,7 @@ USE [name-of-database];
 ```
 ## Create table
 ```
-CCREATE TABLE exampleTable (
+CREATE TABLE exampleTable (
   id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(225) NOT NULL,
   due_date DATE
